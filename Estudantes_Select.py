@@ -256,13 +256,13 @@ for name, dict_ in argumentos.items():
     valores.clear()
 
     for pos, arg in dict_.items():
-        # grupos.append(pos)
-        print(f'{pos} -> {(arg/TUPLAS) * 100:.2f}%')
-
-    # for pos, arg in dict_.items():
-    #     valores.append(float(f'{(arg/TUPLAS) * 100:.2f}'))
+        grupos.append(pos)
         # print(f'{pos} -> {(arg/TUPLAS) * 100:.2f}%')
 
-    # plt.title(name)
-    # plt.bar(grupos, valores)
-    # plt.show()
+    for pos, arg in dict_.items():
+        valores.append(float(f'{(arg/TUPLAS) * 100:.2f}'))
+        # print(f'{pos} -> {(arg/TUPLAS) * 100:.2f}%')
+
+    plt.title(name)
+    plt.bar(grupos, valores)
+    plt.show()
