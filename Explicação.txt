@@ -1,0 +1,11 @@
+Assim como explicado no slide, foi utilizado Python e MySQL.
+
+O slide contém toda a explicação, métodos utilizados e passo a passo.
+
+O arquivo "Estudantes_Insert.py" contém o 1º Script que restringe os dados do Data Set que está como "student-mat.csv" e insere no BD.
+
+O arquivo "Estudantes_Select.py" contem o 2º Script que lê do BD, faz os cálculos probabilísticos e a plotagem dos gráficos. 
+
+No arquivo sql está como foi criado o BD e a tabela utilizada na aplicação.
+
+E, por fim, a pasta "gráficos BD" está todos os gráficos gerados pela biblioteca, também estão inclusos no slide.
